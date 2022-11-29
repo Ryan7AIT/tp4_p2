@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercice 11</title>
+	</head>
+	<body>
+		<h1>Bienvenu sur Exercice 11</h1>
+
+		<form action="personsData" method="POST">
+			<label>Nom:</label>
+			<input type="text" name="valNom" placeholder="Votres nom ..."> <br> <br>
+
+			<textarea name="valParag" cols="50" rows="4" placeholder="Describe your self here"></textarea>  <br> <br>
+
+			<input type="radio" id="genreHomme" name="genre" value="homme" checked > 
+			<label for="genreHomme">Homme</label> <br> <br>
+
+
+			<input type="radio" id="genreFemme" name="genre" value="femme" > 
+			<label for="genreFemme">Femme</label> <br> <br>
+
+
+			
+			<input type="checkbox" id="vehicule1" name="vehicule" value="val1" checked > 
+			<label for="vehicule1">J'ai une voiture:</label> <br> <br>
+						
+			<input type="checkbox" id="vehicule2" name="vehicule" value="val2"  > 
+			<label for="vehicule2">J'ai une moto:</label> <br> <br>
+						
+			<input type="checkbox" id="vehicule3" name="vehicule" value="val3"  > 
+			<label for="vehicule3">J'ai un velo:</label> <br> <br>
+
+
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="renault">renault</option>
+				<option value="mercedes">mercedes</option>
+				<option value="audi">audi</option>
+
+			</select>
+
+			<br> <br>
+
+			<input type="submit" value="Submit">
+		</form>
+
+
+	</body>
+</html>
